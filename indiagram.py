@@ -11,7 +11,10 @@ class indiagram:
                                 2. Press 2 to sign-in
                                 3. Press 3 to write a post
                                 4. Press 4 to send a message to your friend
-                                5. Press any other key to exit\n""")
+                                5. Press any other key to exit
+                           
+                           
+                                ---> """)
 
         if user_input == '1':
             self.signup()
