@@ -18,7 +18,7 @@ class indiagram:
         elif user_input == '2':
             self.signin()
         elif user_input == '3':
-            pass
+            self.writepost()
         elif user_input == '4':
             pass
         else:
@@ -48,7 +48,15 @@ class indiagram:
         print('\n')
         self.menu()
 
+    def writepost(self):
+        if self.loggedin == True:
+            post = input('Please post here:   ')
+            print(f"{self.username} posted : {post}")
+
+        else:
+            print('Please sign-in first to post!!!')
+
+
 
         
-
 obj = indiagram()
