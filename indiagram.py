@@ -59,6 +59,7 @@ class indiagram:
             print(f"{self.username} posted : {post}")
         else:
             print('Please sign-in first to post!!!')
+        print('\n')
         self.menu()
         print('\n')
 
@@ -69,10 +70,11 @@ class indiagram:
 
             print(f"sending the message to {friend}")
         else:
-            print('Please sign-in first to post!!!')        
+            print('Please sign-in first to post!!!')  
+        print('\n')      
         self.menu()
         print('\n')
 
 
         
-User1 = indiagram()
+#User1 = indiagram()
