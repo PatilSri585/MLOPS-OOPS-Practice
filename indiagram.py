@@ -10,7 +10,7 @@ class indiagram:
                                 1. Press 1 to sign-up
                                 2. Press 2 to sign-in
                                 3. Press 3 to write a post
-                                4. Press 4 to send a message to your firend
+                                4. Press 4 to send a message to your friend
                                 5. Press any other key to exit\n""")
 
         if user_input == '1':
@@ -20,7 +20,7 @@ class indiagram:
         elif user_input == '3':
             self.writepost()
         elif user_input == '4':
-            pass
+            self.message()
         else:
             exit()
             
@@ -33,6 +33,7 @@ class indiagram:
         print('You have signed up successfully!!!')
         print('\n')
         self.menu()
+        print('\n')
 
     def signin(self):
         if self.username == '' and self.password =='':
@@ -47,16 +48,28 @@ class indiagram:
                 print("Please enter the correct credentials!!!")
         print('\n')
         self.menu()
+        print('\n')
 
     def writepost(self):
         if self.loggedin == True:
             post = input('Please post here:   ')
             print(f"{self.username} posted : {post}")
-
         else:
             print('Please sign-in first to post!!!')
+        self.menu()
+        print('\n')
 
+    def message(self):
+        if self.loggedin == True:
+            friend = input('Whom do you ant to send the message:   ')
+            message = input("What is your message?:   ")
+
+            print(f"sending the message to {friend}")
+        else:
+            print('Please sign-in first to post!!!')        
+        self.menu()
+        print('\n')
 
 
         
-obj = indiagram()
+User1 = indiagram()
