@@ -13,5 +13,6 @@ class employee:
         print('Finished executing Method')
 
 Harsha = employee()
-Harsha.travel("Ooty")
+# Harsha.travel("Ooty")                                      
 # print(Harsha.salary)
+print(type(Harsha))
