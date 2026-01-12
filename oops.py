@@ -4,5 +4,10 @@ class employee:
         self.salary = 20000
         self.designation = "Software Engineer"
 
+
+    def travel(self,destination):
+        print(f'Employee is now travelling to {destination}')
+
 Harsha = employee()
-print(Harsha.salary)
+Harsha.travel("Ooty")
+# print(Harsha.salary)
