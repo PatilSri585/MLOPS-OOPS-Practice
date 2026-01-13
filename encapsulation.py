@@ -11,3 +11,4 @@ print(harsha.name)
 print(harsha.designation)
 print(harsha.id)
 print(harsha.__salary)              #cant be accessed.AttributeError: 'employee' object has no attribute '__salary'
+print(harsha._employee__salary)      #Can be accessed like this. Output: 40000
