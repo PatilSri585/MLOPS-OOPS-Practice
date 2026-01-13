@@ -10,7 +10,6 @@ class dog(animal):
         print(f'{self.name} will bark')
 
 buddy = animal("Buddy")
-
 buddy.sound()
 
 tommy = dog("tommy")
