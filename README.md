@@ -11,6 +11,7 @@ This repository explores OOP principles in Python with practical implementations
 - **Indiagram App** (`indiagram.py`): A simple console-based social media application with user authentication, posting, and messaging features.
 - **Employee Class** (`oops.py`): Basic OOP example showcasing class initialization and methods.
 - **Python Objects** (`why_python_is_oops.py`): Demonstrates that everything in Python is an object, highlighting the language's OOP nature.
+- **Diamond Problem** (`diamond_problem.py`): Illustrates multiple inheritance and the Diamond Problem, showing how Python's Method Resolution Order (MRO) resolves conflicts.
 
 ## Installation
 
@@ -46,11 +47,18 @@ Run each script individually to explore the examples:
   ```
   Shows type information for various Python objects.
 
+- **Diamond Problem**:
+  ```bash
+  python diamond_problem.py
+  ```
+  Demonstrates multiple inheritance and MRO in action.
+
 ## File Structure
 
 - `indiagram.py`: Main social media app implementation.
 - `oops.py`: Basic employee class example.
 - `why_python_is_oops.py`: Script explaining Python's object-oriented nature.
+- `diamond_problem.py`: Example of multiple inheritance and the Diamond Problem.
 - `LICENSE`: MIT License file.
 - `README.md`: This file.
 
@@ -60,6 +68,7 @@ Run each script individually to explore the examples:
 - Learn about instance variables and methods.
 - Explore user input handling and basic authentication.
 - Recognize that Python treats everything as objects.
+- Comprehend multiple inheritance and the Diamond Problem resolution via MRO.
 
 ## License
 
